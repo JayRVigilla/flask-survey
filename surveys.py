@@ -30,10 +30,11 @@ satisfaction_survey = Survey(
         Question("Have you shopped here before?"),
         Question("Did someone else shop with you today?"),
         Question("On average, how much do you spend a month on frisbees?",
-                 ["Less than $10,000", "$10,000 or more"]),
+                 ["Less than $10,000", "$10,000 or more"]),  # syntax for choices
         Question("Are you likely to shop here again?"),
     ])
 
+# For Further Study
 personality_quiz = Survey(
     "Rithm Personality Test",
     "Learn more about yourself with our personality quiz!",
